@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="592bd600a7c54497a7fcfb8a23b3071c" Name="Diagram1" ZoomLevel="72">
+        <EntityTypeShape EntityType="Sistema_Venta.Categoria" Width="1.5" PointX="6" PointY="2.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Sistema_Venta.Cliente" Width="1.5" PointX="5.625" PointY="10.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Sistema_Venta.DetalleFacCompra" Width="1.5" PointX="10.375" PointY="6.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Sistema_Venta.DetalleFacVenta" Width="1.5" PointX="10.875" PointY="3.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Sistema_Venta.FacturaCompra" Width="1.5" PointX="7.875" PointY="5.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Sistema_Venta.FacturaVenta" Width="1.5" PointX="5.625" PointY="5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Sistema_Venta.Permiso" Width="1.5" PointX="3.625" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Sistema_Venta.Producto" Width="1.5" PointX="8.625" PointY="1.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Sistema_Venta.Proveedor" Width="1.5" PointX="7.875" PointY="10.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Sistema_Venta.Rol" Width="1.5" PointX="1.5" PointY="5.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Sistema_Venta.TipoEntrada" Width="1.5" PointX="3.5" PointY="10.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Sistema_Venta.TipoSalida" Width="1.5" PointX="10" PointY="10" IsExpanded="true" />
+        <EntityTypeShape EntityType="Sistema_Venta.Usuario" Width="1.5" PointX="3.625" PointY="6.375" IsExpanded="true" />
+        <AssociationConnector Association="Sistema_Venta.FK_Producto_Categoria" ManuallyRouted="false" />
+        <AssociationConnector Association="Sistema_Venta.FK_FacturaVenta_Cliente" ManuallyRouted="false" />
+        <AssociationConnector Association="Sistema_Venta.FK_DetalleFacCompra_FacturaCompra" ManuallyRouted="false" />
+        <AssociationConnector Association="Sistema_Venta.FK_DetalleFacCompra_Producto" ManuallyRouted="false" />
+        <AssociationConnector Association="Sistema_Venta.FK_DetalleFacVenta_FacturaVenta" ManuallyRouted="false" />
+        <AssociationConnector Association="Sistema_Venta.FK_DetalleFacVenta_Producto" ManuallyRouted="false" />
+        <AssociationConnector Association="Sistema_Venta.FK_FacturaCompra_Proveedor" ManuallyRouted="false" />
+        <AssociationConnector Association="Sistema_Venta.FK_FacturaCompra_TipoEntrada" ManuallyRouted="false" />
+        <AssociationConnector Association="Sistema_Venta.FK_FacturaCompra_Usuario" ManuallyRouted="false" />
+        <AssociationConnector Association="Sistema_Venta.FK_FacturaVenta_TipoSalida" ManuallyRouted="false" />
+        <AssociationConnector Association="Sistema_Venta.FK_FacturaVenta_Usuario" ManuallyRouted="false" />
+        <AssociationConnector Association="Sistema_Venta.FK_Permiso_Rol" ManuallyRouted="false" />
+        <AssociationConnector Association="Sistema_Venta.FK_Usuario_Rol" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
